@@ -510,8 +510,18 @@ body.Ar .navbar a:focus {
 
 .lan {
   margin-left: 32px;
+  cursor: pointer;
 
 }
+
+.lan a:hover,
+.lan .active,
+.lan .active:focus,
+.lan li:hover>a {
+  color: #3fbbc0;
+
+}
+
 
 @media (max-width: 1200px) {
 
