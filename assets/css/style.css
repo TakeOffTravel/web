@@ -438,15 +438,17 @@ body.Ar .navbar a:focus {
 }
 
 .navbar-mobile ul {
-  display: block;
+  display: flex;
+  flex-direction: column;
   position: absolute;
   top: 55px;
-  right: 15px;
+  right: 185px;
   bottom: 15px;
-  left: 15px;
+  left: 185px;
   padding: 10px 0;
   border-radius: 8px;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 1);
+
   overflow-y: auto;
   transition: 0.3s;
 }
@@ -470,7 +472,7 @@ body.Ar .navbar a:focus {
   margin: 10px 20px;
   padding: 10px 0;
   z-index: 99;
-  opacity: 1;
+  opacity: 1.5;
   visibility: visible;
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
@@ -561,6 +563,60 @@ body.Ar .navbar a:focus {
 }
 
 
+@media (max-width: 992px) {
+
+  body.Ar .navbar a,
+  body.Ar .navbar a:focus {
+    margin-top: 30px;
+    font-weight: bold;
+
+  }
+
+  .navbar a,
+  .navbar a:focus {
+
+    margin-top: 27px;
+    font-weight: bold;
+
+  }
+
+}
+
+@media (max-width: 992px) {
+
+  .navbar-mobile ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    right: 185px;
+    bottom: 15px;
+    left: 185px;
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+}
+
+@media (max-width: 700px) {
+
+  .navbar-mobile ul {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 55px;
+    right: 100px;
+    bottom: 15px;
+    left: 100px;
+    padding: 10px 0;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 1);
+    overflow-y: auto;
+    transition: 0.3s;
+  }
+}
 
 
 
