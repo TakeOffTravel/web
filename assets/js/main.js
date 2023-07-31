@@ -491,6 +491,12 @@ setTimeout(() => {
 
 
     // new PureCounter();
+
+
+
+
+
+
     /**
        * Animation on scroll function and init
        */
@@ -510,3 +516,5 @@ setTimeout(() => {
   })()
 
 }, 1000);
+
+
