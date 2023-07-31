@@ -569,8 +569,45 @@ body.Ar .navbar a:focus {
   body.Ar .navbar a:focus {
     margin-top: 30px;
     font-weight: bold;
+    padding: 10px 0 10px 0px;
+  }
+
+
+
+  .navbar a,
+  .navbar a:focus {
+
+    font-size: 16px !important;
+    padding: 10px 0px 10px 0px;
+  }
+
+
+  #oldbtn {
+    display: none;
+  }
+
+  #newbtn {
+    display: inline-block;
+    margin-left: 3px;
 
   }
+
+  .lan {
+    margin-left: 2px;
+
+  }
+
+
+
+
+  body.Ar .navbar a,
+  body.Ar .navbar a:focus {
+    font-size: 20px !important;
+
+  }
+
+
+
 
   .navbar a,
   .navbar a:focus {
